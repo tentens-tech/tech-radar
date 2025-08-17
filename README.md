@@ -14,6 +14,6 @@ It helps teams to:
 ## How to update
 
 1. Update the `src/radar.csv` file by adding or modifying items.
-2. Run the ```go run convert.go | jq | pbcopy```
-3. Paste result entries into `public/index.html`
+2. Run the ```go run convert.go > ../docs/config.json```
+
 
