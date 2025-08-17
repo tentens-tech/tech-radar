@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="1010s Tech Radar">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>1010s Tech Radar</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="radar.js"></script>
+    <link rel="stylesheet" href="radar.css">
+</head>
+<body>
+<svg class="svg" id="radar"></svg>
+<script>
+    radar_visualization({
+        svg_id: "radar",
+        width: 1450,
+        height: 1450,
+        colors: {
+            background: "#fff",
+            grid: '#dddde0',
+            inactive: "#ddd"
+        },
+        title: "1010s Tech Radar",
+        date: "2025",
+        quadrants: [
+            {name: "Infrastructure"},
+            {name: "Data management"},
+            {name: "Techniques && Tools"},
+            {name: "Languages & Frameworks"},
+        ],
+        rings: [
+            {name: "ADOPT", color: "#5ba300"}, //0
+            {name: "TRIAL", color: "#009eb0"}, //1
+            {name: "ASSESS", color: "#c7ba00"},//2
+            {name: "HOLD", color: "#e09b96"}//3
+        ],
+        print_layout: true,
+        links_in_new_tabs: true,
+        // zoomed_quadrant: 0,
+        //ENTRIES
+        entries:
+            [
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "Apache AirFlow",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Allure",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "Allure TestOps",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Amqproxy",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Ansible",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "Apache Airflow",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 1,
+                    "label": "API Gateway",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "jQuery",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Prometheus",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Grafana",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "VictoriaMetrics",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "SonarQube",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "ArgoCD",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "BigQuery",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 3,
+                    "label": "Cassandra",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 3,
+                    "label": "Clickhouse",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Cloudflare",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Code climate",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Consul",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "CSSModules",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "DataDog",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "DayJS",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Docker",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 3,
+                    "label": "ElasticSearch",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Envoy",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Eslint",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "garden",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 1,
+                    "label": "Gatling",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Github",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Gitlab",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "GKE",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Golang",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Google Cloud",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Grafana Tempo",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Graphite",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "GraphQL",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Node.js",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Python",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Symfony",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Graylog",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 2,
+                    "label": "gRPC",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Haproxy",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Helm",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 2,
+                    "label": "io-ts",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Istio",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Java",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 3,
+                    "label": "JavaScript",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Jenkins",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Jest",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 2,
+                    "label": "Apache Kafka",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Kaniko",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Keda",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Kiali",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Kubernetes",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Loki",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Mcrouter",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "Memcached",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 1,
+                    "label": "MicroFrontends",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Microservices",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Modular Monolith",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 1,
+                    "label": "ModuleFederation",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 3,
+                    "label": "Moment.js",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "MongoDB",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "Monolithic architecture",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Moon",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "MySQL",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Newrelic",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Npm",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Nuxt.js",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "OpenSearch",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 1,
+                    "label": "OpenTelemetry",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "Orchestrator",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 1,
+                    "label": "Owasp zap",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "Percona MySQL",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "PHP",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Pingdom",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 1,
+                    "label": "Pinia",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 1,
+                    "label": "Playwright",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Pnpm",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "Proxysql",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Pulumi",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "RabbitMQ",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "Redis",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "ReportPortal",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Reviewdog",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "SASS",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "ScyllaDB",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Selenium",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Selenoid",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Sentry",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 1,
+                    "label": "Testcontainers",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Sitespeed",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Sonarqube",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "SPA",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Stackdriver",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Static Site Generators",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Storybook",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Teamcity",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "Terraform",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "Test Rail",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "TestNg",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "Tilt",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Traefik",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 3,
+                    "label": "TSLint",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "TypeScript",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "Vault",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "VictoriaMetrics",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 2,
+                    "label": "Vite",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 1,
+                    "label": "Vitest",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Vue",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 2,
+                    "ring": 0,
+                    "label": "VueCli",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Vuex",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 3,
+                    "ring": 0,
+                    "label": "Webpack",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 1,
+                    "label": "Grafana Aloy",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Grafana OnCall",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 1,
+                    "label": "Dragonfly",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 3,
+                    "label": "Newrelic",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 1,
+                    "ring": 0,
+                    "label": "Dataform",
+                    "active": true,
+                    "moved": 0
+                },
+                {
+                    "quadrant": 0,
+                    "ring": 0,
+                    "label": "AWS",
+                    "active": true,
+                    "moved": 0
+                }
+            ]
+        //ENTRIES
+    });
+</script>
+
+<table class="footer">
+    <tr>
+        <td>
+            <ul>
+                <li><strong>ADOPT</strong> &mdash; Technologies we have high confidence in to serve our purpose, also in
+                    large scale. Technologies with a usage culture in our production environment, low risk and
+                    recommended to be widely used.
+                </li>
+                <li><strong>TRIAL</strong> &mdash; Technologies that we have seen work with success in project work to
+                    solve a real problem; first serious usage experience that confirm benefits and can uncover
+                    limitations. TRIAL technologies are slightly more risky; some engineers in our organization walked
+                    this path and will share knowledge and experiences.
+                </li>
+                <li><strong>ASSESS</strong> &mdash; Technologies that are promising and have clear potential value-add
+                    for us; technologies worth to invest some research and prototyping efforts in to see if it has
+                    impact. ASSESS technologies have higher risks; they are often brand new and highly unproven in our
+                    organisation. You will find some engineers that have knowledge in the technology and promote it, you
+                    may even find teams that have started a prototyping effort.
+                </li>
+                <li><strong>HOLD</strong> &mdash; Technologies not recommended to be used for new projects. Technologies
+                    that we think are not (yet) worth to (further) invest in. HOLD technologies should not be used for
+                    new projects, but usually can be continued for existing projects.
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
