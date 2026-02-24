@@ -1,119 +1,145 @@
-Apache AirFlow,hold,Techniques && Tools
-Allure,ADOPT,Techniques && Tools
-Allure TestOps,hold,Techniques && Tools
-Amqproxy,ADOPT,Infrastructure
-Ansible,ADOPT,Techniques && Tools
 Apache Airflow,ADOPT,Data management
-API Gateway,TRIAL,Techniques && Tools
-jQuery,hold,Techniques && Tools
-Prometheus,ADOPT,Infrastructure
-Grafana,ADOPT,Techniques && Tools
-VictoriaMetrics,ADOPT,Techniques && Tools
-SonarQube,hold,Techniques && Tools
-ArgoCD,ADOPT,Infrastructure
 BigQuery,ADOPT,Data management
-Cassandra,hold,Data management
-Clickhouse,hold,Data management
+Dataform,ADOPT,Data management
+Memcached,ADOPT,Data management
+MongoDB,ADOPT,Data management
+MySQL,ADOPT,Data management
+OpenSearch,ADOPT,Data management
+Orchestrator,ADOPT,Data management
+Percona MySQL,ADOPT,Data management
+PostgreSQL,ADOPT,Data management
+Proxysql,ADOPT,Data management
+RabbitMQ,ADOPT,Data management
+Redis,ADOPT,Data management
+ScyllaDB,ADOPT,Data management
+Cassandra,HOLD,Data management
+Clickhouse,HOLD,Data management
+ElasticSearch,HOLD,Data management
+Dragonfly,TRIAL,Data management
+Alpine,ADOPT,Infrastructure
+Amqproxy,ADOPT,Infrastructure
+Ansible,ADOPT,Infrastructure
+ArgoCD,ADOPT,Infrastructure
+AWS,ADOPT,Infrastructure
+Cert-Manager,ADOPT,Infrastructure
 Cloudflare,ADOPT,Infrastructure
 Code climate,ADOPT,Infrastructure
 Consul,ADOPT,Infrastructure
-CSSModules,ADOPT,Techniques && Tools
-DataDog,hold,Infrastructure
-DayJS,ADOPT,Languages & Frameworks
+ContainerD,ADOPT,Infrastructure
+CoreDNS,ADOPT,Infrastructure
+Debian,ADOPT,Infrastructure
 Docker,ADOPT,Infrastructure
-ElasticSearch,hold,Data management
 Envoy,ADOPT,Infrastructure
-Eslint,ADOPT,Techniques && Tools
-garden,hold,Infrastructure
-Gatling,TRIAL,Languages & Frameworks
-Github,hold,Infrastructure
-Gitlab,ADOPT,Infrastructure
+Estafette GKE,ADOPT,Infrastructure
 GKE,ADOPT,Infrastructure
-Golang,ADOPT,Languages & Frameworks
-Google Cloud,ADOPT,Infrastructure
+Gitlab,ADOPT,Infrastructure
+GCP,ADOPT,Infrastructure
 Grafana Tempo,ADOPT,Infrastructure
-Graphite,hold,Infrastructure
-GraphQL,ADOPT,Languages & Frameworks
-Node.js,ADOPT,Languages & Frameworks
-Python,ADOPT,Languages & Frameworks
-Symfony,ADOPT,Languages & Frameworks
-Graylog,hold,Infrastructure
-gRPC,Assess,Techniques && Tools
-Haproxy,hold,Infrastructure
 Helm,ADOPT,Infrastructure
-io-ts,Assess,Languages & Frameworks
 Istio,ADOPT,Infrastructure
-Java,ADOPT,Languages & Frameworks
-JavaScript,hold,Languages & Frameworks
-Jenkins,hold,Infrastructure
-Jest,ADOPT,Languages & Frameworks
-Apache Kafka,Assess,Techniques && Tools
 Kaniko,ADOPT,Infrastructure
 Keda,ADOPT,Infrastructure
 Kiali,ADOPT,Infrastructure
 Kubernetes,ADOPT,Infrastructure
+LEGO,ADOPT,Infrastructure
+Let's Encrypt,ADOPT,Infrastructure
+Linux,ADOPT,Infrastructure
 Loki,ADOPT,Infrastructure
 Mcrouter,ADOPT,Infrastructure
-Memcached,ADOPT,Data management
-MicroFrontends,TRIAL,Techniques && Tools
-Microservices,ADOPT,Techniques && Tools
-Modular Monolith,ADOPT,Techniques && Tools
-ModuleFederation,TRIAL,Languages & Frameworks
-Moment.js,hold,Languages & Frameworks
-MongoDB,ADOPT,Data management
-Monolithic architecture,hold,Techniques && Tools
-Moon,hold,Infrastructure
-MySQL,ADOPT,Data management
+Minikube,ADOPT,Infrastructure
+Netdata,ADOPT,Infrastructure
 Newrelic,ADOPT,Infrastructure
-Npm,ADOPT,Languages & Frameworks
-Nuxt.js,ADOPT,Languages & Frameworks
-OpenSearch,ADOPT,Data management
-OpenTelemetry,TRIAL,Techniques && Tools
-Orchestrator,ADOPT,Data management
-Owasp zap,TRIAL,Techniques && Tools
-Percona MySQL,ADOPT,Data management
-PHP,ADOPT,Languages & Frameworks
+Nginx,ADOPT,Infrastructure
 Pingdom,ADOPT,Infrastructure
-Pinia,TRIAL,Languages & Frameworks
-Playwright,TRIAL,Techniques && Tools
-Pnpm,ADOPT,Techniques && Tools
-Proxysql,ADOPT,Data management
-Pulumi,ADOPT,Techniques && Tools
-RabbitMQ,ADOPT,Data management
-Redis,ADOPT,Data management
-ReportPortal,hold,Techniques && Tools
-Reviewdog,ADOPT,Techniques && Tools
-SASS,ADOPT,Languages & Frameworks
-ScyllaDB,ADOPT,Data management
-Selenium,ADOPT,Techniques && Tools
+Pritunl,ADOPT,Infrastructure
+Prometheus,ADOPT,Infrastructure
+Pulumi,ADOPT,Infrastructure
 Selenoid,ADOPT,Infrastructure
 Sentry,ADOPT,Infrastructure
-Testcontainers,TRIAL,Techniques && Tools
-Sitespeed,ADOPT,Techniques && Tools
 Sonarqube,ADOPT,Infrastructure
-SPA,ADOPT,Techniques && Tools
-Stackdriver,hold,Infrastructure
-Static Site Generators,ADOPT,Techniques && Tools
-Storybook,ADOPT,Techniques && Tools
-Teamcity,hold,Infrastructure
-Terraform,hold,Techniques && Tools
-Test Rail,hold,Techniques && Tools
-TestNg,ADOPT,Techniques && Tools
-Tilt,ADOPT,Techniques && Tools
-Traefik,hold,Infrastructure
-TSLint,hold,Techniques && Tools
-TypeScript,ADOPT,Languages & Frameworks
 Vault,ADOPT,Infrastructure
 VictoriaMetrics,ADOPT,Infrastructure
-Vite,Assess,Techniques && Tools
-Vitest,TRIAL,Languages & Frameworks
+ARM64,ASSESS,Infrastructure
+DataDog,HOLD,Infrastructure
+garden,HOLD,Infrastructure
+Github,ASSESS,Infrastructure
+Grafana OnCall,HOLD,Infrastructure
+Graylog,HOLD,Infrastructure
+Haproxy,HOLD,Infrastructure
+Jenkins,HOLD,Infrastructure
+Moon,HOLD,Infrastructure
+Stackdriver,HOLD,Infrastructure
+Teamcity,HOLD,Infrastructure
+Terraform,HOLD,Infrastructure
+Traefik,HOLD,Infrastructure
+Grafana Aloy,TRIAL,Infrastructure
+Graphite,TRIAL,Infrastructure
+OpenTelemetry,TRIAL,Infrastructure
+vmagent,TRIAL,Infrastructure
+Apache Kafka,Assess,Infrastructure
+DayJS,ADOPT,Languages & Frameworks
+Golang,ADOPT,Languages & Frameworks
+GraphQL,ADOPT,Languages & Frameworks
+Java,ADOPT,Languages & Frameworks
+Jest,ADOPT,Languages & Frameworks
+Npm,ADOPT,Languages & Frameworks
+Nuxt.js,ADOPT,Languages & Frameworks
+PHP,ADOPT,Languages & Frameworks
+SASS,ADOPT,Languages & Frameworks
+TypeScript,ADOPT,Languages & Frameworks
 Vue,ADOPT,Languages & Frameworks
-VueCli,ADOPT,Techniques && Tools
 Vuex,ADOPT,Languages & Frameworks
 Webpack,ADOPT,Languages & Frameworks
-Grafana Aloy,TRIAL,Infrastructure
-Grafana OnCall,hold,Infrastructure
-Dragonfly,TRIAL,Data management
-Newrelic,hold,Infrastructure
-Dataform,ADOPT,Data management
-AWS,ADOPT,Infrastructure
+Bash,HOLD,Languages & Frameworks
+JavaScript,hold,Languages & Frameworks
+Moment.js,hold,Languages & Frameworks
+Gatling,TRIAL,Languages & Frameworks
+ModuleFederation,TRIAL,Languages & Frameworks
+Pinia,TRIAL,Languages & Frameworks
+Vitest,TRIAL,Languages & Frameworks
+io-ts,Assess,Languages & Frameworks
+Allure,ADOPT,Techniques && Tools
+Ansible,ADOPT,Techniques && Tools
+ChartMuseum,ADOPT,Techniques && Tools
+CircleCI,ADOPT,Techniques && Tools
+Cloud Build,ADOPT,Techniques && Tools
+Code Climate,ADOPT,Techniques && Tools
+Composer,ADOPT,Techniques && Tools
+CSSModules,ADOPT,Techniques && Tools
+Drone CI,ADOPT,Techniques && Tools
+Eslint,ADOPT,Techniques && Tools
+GitLab,ADOPT,Techniques && Tools
+GitLab Runner,ADOPT,Techniques && Tools
+Kustomize,ADOPT,Techniques && Tools
+Kyverno,ADOPT,Techniques && Tools
+Microservices,ADOPT,Techniques && Tools
+Modular Monolith,ADOPT,Techniques && Tools
+Npm registry,ADOPT,Techniques && Tools
+OpenPolicy Agent,ADOPT,Techniques && Tools
+PHPUnit,ADOPT,Techniques && Tools
+Pnpm,ADOPT,Techniques && Tools
+Reviewdog,ADOPT,Techniques && Tools
+Selenium,ADOPT,Techniques && Tools
+Sitespeed,ADOPT,Techniques && Tools
+SPA,ADOPT,Techniques && Tools
+Static Site Generators,ADOPT,Techniques && Tools
+Storybook,ADOPT,Techniques && Tools
+TestNg,ADOPT,Techniques && Tools
+Tilt,ADOPT,Techniques && Tools
+VueCli,ADOPT,Techniques && Tools
+Allure TestOps,hold,Techniques && Tools
+Apache AirFlow,hold,Techniques && Tools
+jQuery,hold,Techniques && Tools
+Monolithic architecture,hold,Techniques && Tools
+ReportPortal,hold,Techniques && Tools
+Selenide,HOLD,Techniques && Tools
+SonarQube,hold,Techniques && Tools
+Test Rail,hold,Techniques && Tools
+TSLint,hold,Techniques && Tools
+API Gateway,TRIAL,Techniques && Tools
+MicroFrontends,TRIAL,Techniques && Tools
+Owasp zap,TRIAL,Techniques && Tools
+Playwright,TRIAL,Techniques && Tools
+Testcontainers,TRIAL,Techniques && Tools
+gRPC,Assess,Techniques && Tools
+Vite,Assess,Techniques && Tools

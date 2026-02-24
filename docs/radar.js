@@ -256,10 +256,13 @@ function radar_visualization(config) {
   }
 
   function legend_transform(quadrant, ring, index=null) {
-    var dx = ring < 2 ? 0 : 140;
+    var dx = ring === 0 ? 0 : 140;
     var dy = (index == null ? -16 : index * 12);
-    if (ring % 2 === 1) {
-      dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
+    if (ring > 1) {
+      dy = dy + 36
+      for (var i = 1; i < ring; i++) {
+        dy += 36 + segmented[quadrant][i].length * 12;
+      }
     }
     return translate(
       legend_offset[quadrant].x + dx,
@@ -305,6 +308,7 @@ function radar_visualization(config) {
         .text(config.quadrants[quadrant].name)
         .style("font-family", "Arial, Helvetica")
         .style("font-size", "18px")
+        .style("fill", "white")
         .style("font-weight", "bold");
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
@@ -332,6 +336,7 @@ function radar_visualization(config) {
               .text(function(d, i) { return d.id + ". " + d.label; })
               .style("font-family", "Arial, Helvetica")
               .style("font-size", "11px")
+              .style("fill", "white")
               .on("mouseover", function(d) { showBubble(d); highlightLegendItem(d); })
               .on("mouseout", function(d) { hideBubble(d); unhighlightLegendItem(d); });
       }

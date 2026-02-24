@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="radar.css">
 </head>
 <body>
+<header class="logo" aria-label="Site logo and title">
+    <img class="logo-img" src="logo.svg" alt="1010s">
+    <h1>Tech Radar</h1>
+</header>
 <svg class="svg" id="radar"></svg>
 <script>
     fetch('./config.json').then(function (response) {
@@ -21,12 +25,12 @@
             width: 1450,
             height: 1450,
             colors: {
-                background: "#fff",
-                grid: '#dddde0',
+                background: "#212121",
+                grid: '#024d3d',
                 inactive: "#ddd"
             },
-            title: "1010s Tech Radar",
-            date: "2025",
+            // title: "1010s Tech Radar",
+            // date: "2025",
             quadrants: [
                 {name: "Infrastructure"},
                 {name: "Data management"},
