@@ -13,7 +13,8 @@ It helps teams to:
 
 ## How to update
 
-1. Update the `src/radar.csv` file by adding or modifying items.
+1. Update or add JSON files in `src/radar`
 2. Run the ```go run convert.go > ../docs/config.json```
+3. Check that ```../docs/config.json``` was updated
 
 
