@@ -1,5 +1,12 @@
 [
   {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Airflow",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 2,
     "ring": 0,
     "label": "Allure",
@@ -52,6 +59,13 @@
     "quadrant": 2,
     "ring": 1,
     "label": "API Gateway",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Argilla",
     "active": true,
     "moved": 0
   },
@@ -114,7 +128,7 @@
   {
     "quadrant": 2,
     "ring": 0,
-    "label": "CircleCI",
+    "label": "ChatGPT",
     "active": true,
     "moved": 0
   },
@@ -178,6 +192,13 @@
     "quadrant": 2,
     "ring": 0,
     "label": "CSSModules",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Cursor",
     "active": true,
     "moved": 0
   },
@@ -276,6 +297,13 @@
     "quadrant": 0,
     "ring": 0,
     "label": "GCP",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Gemini",
     "active": true,
     "moved": 0
   },
@@ -920,6 +948,20 @@
     "quadrant": 0,
     "ring": 0,
     "label": "Vault",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Veo3",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "N8N",
     "active": true,
     "moved": 0
   },
