@@ -1,5 +1,5 @@
 {
-  "technology": "Vitest",
+  "technology": "lint-staged",
   "status": "ADOPT",
   "category": "Techniques && Tools"
 }

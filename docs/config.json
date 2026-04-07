@@ -64,6 +64,13 @@
   },
   {
     "quadrant": 2,
+    "ring": 0,
+    "label": "Apollo Client",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
     "ring": 1,
     "label": "Argilla",
     "active": true,
@@ -87,6 +94,13 @@
     "quadrant": 0,
     "ring": 0,
     "label": "AWS",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Axios",
     "active": true,
     "moved": 0
   },
@@ -155,6 +169,13 @@
   },
   {
     "quadrant": 2,
+    "ring": 1,
+    "label": "Cloudflare Workers",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
     "ring": 0,
     "label": "Code Climate",
     "active": true,
@@ -164,6 +185,13 @@
     "quadrant": 2,
     "ring": 0,
     "label": "Composer",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "ConnectRPC",
     "active": true,
     "moved": 0
   },
@@ -185,6 +213,13 @@
     "quadrant": 0,
     "ring": 0,
     "label": "CoreDNS",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Crowdin",
     "active": true,
     "moved": 0
   },
@@ -217,7 +252,14 @@
     "moved": 0
   },
   {
-    "quadrant": 3,
+    "quadrant": 2,
+    "ring": 1,
+    "label": "date-fns",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
     "ring": 0,
     "label": "DayJS",
     "active": true,
@@ -234,6 +276,13 @@
     "quadrant": 0,
     "ring": 0,
     "label": "Docker",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "DOMPurify",
     "active": true,
     "moved": 0
   },
@@ -259,6 +308,13 @@
     "moved": 0
   },
   {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Electron",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 0,
     "ring": 0,
     "label": "Envoy",
@@ -276,6 +332,13 @@
     "quadrant": 0,
     "ring": 0,
     "label": "Estafette GKE",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "FingerprintJS",
     "active": true,
     "moved": 0
   },
@@ -371,9 +434,16 @@
     "moved": 0
   },
   {
-    "quadrant": 3,
-    "ring": 0,
+    "quadrant": 2,
+    "ring": 3,
     "label": "GraphQL",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "GraphQL Codegen",
     "active": true,
     "moved": 0
   },
@@ -386,7 +456,7 @@
   },
   {
     "quadrant": 2,
-    "ring": 2,
+    "ring": 0,
     "label": "gRPC",
     "active": true,
     "moved": 0
@@ -402,6 +472,27 @@
     "quadrant": 0,
     "ring": 0,
     "label": "Helm",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "Histoire",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Husky",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "i18next",
     "active": true,
     "moved": 0
   },
@@ -441,8 +532,8 @@
     "moved": 0
   },
   {
-    "quadrant": 3,
-    "ring": 0,
+    "quadrant": 2,
+    "ring": 3,
     "label": "Jest",
     "active": true,
     "moved": 0
@@ -511,6 +602,13 @@
     "moved": 0
   },
   {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "lint-staged",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 0,
     "ring": 0,
     "label": "Linux",
@@ -518,9 +616,23 @@
     "moved": 0
   },
   {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Lodash-es",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 0,
     "ring": 0,
     "label": "Loki",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Lottie",
     "active": true,
     "moved": 0
   },
@@ -574,9 +686,16 @@
     "moved": 0
   },
   {
-    "quadrant": 3,
+    "quadrant": 2,
     "ring": 3,
     "label": "Moment.js",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Monaco Editor",
     "active": true,
     "moved": 0
   },
@@ -598,6 +717,13 @@
     "quadrant": 0,
     "ring": 3,
     "label": "Moon",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "MSW",
     "active": true,
     "moved": 0
   },
@@ -632,6 +758,13 @@
   {
     "quadrant": 3,
     "ring": 0,
+    "label": "Node.js",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
     "label": "Npm",
     "active": true,
     "moved": 0
@@ -647,6 +780,13 @@
     "quadrant": 3,
     "ring": 0,
     "label": "Nuxt.js",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Nx",
     "active": true,
     "moved": 0
   },
@@ -715,14 +855,14 @@
   },
   {
     "quadrant": 3,
-    "ring": 1,
+    "ring": 0,
     "label": "Pinia",
     "active": true,
     "moved": 0
   },
   {
     "quadrant": 2,
-    "ring": 1,
+    "ring": 0,
     "label": "Playwright",
     "active": true,
     "moved": 0
@@ -735,9 +875,30 @@
     "moved": 0
   },
   {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "PostCSS",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 1,
     "ring": 0,
     "label": "PostgreSQL",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Prettier",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "PrimeVue",
     "active": true,
     "moved": 0
   },
@@ -770,6 +931,13 @@
     "moved": 0
   },
   {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "PWA",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 1,
     "ring": 0,
     "label": "RabbitMQ",
@@ -780,6 +948,13 @@
     "quadrant": 1,
     "ring": 0,
     "label": "Redis",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "release-it",
     "active": true,
     "moved": 0
   },
@@ -882,6 +1057,20 @@
     "moved": 0
   },
   {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Stylelint",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "SWC",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 0,
     "ring": 3,
     "label": "Teamcity",
@@ -911,6 +1100,13 @@
   },
   {
     "quadrant": 2,
+    "ring": 1,
+    "label": "Testing Library",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
     "ring": 0,
     "label": "TestNg",
     "active": true,
@@ -924,9 +1120,23 @@
     "moved": 0
   },
   {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Tiptap",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 0,
     "ring": 3,
     "label": "Traefik",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "ts-node",
     "active": true,
     "moved": 0
   },
@@ -938,9 +1148,23 @@
     "moved": 0
   },
   {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Turbo",
+    "active": true,
+    "moved": 0
+  },
+  {
     "quadrant": 3,
     "ring": 0,
     "label": "TypeScript",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "UnoCSS",
     "active": true,
     "moved": 0
   },
@@ -974,14 +1198,14 @@
   },
   {
     "quadrant": 2,
-    "ring": 2,
+    "ring": 0,
     "label": "Vite",
     "active": true,
     "moved": 0
   },
   {
-    "quadrant": 3,
-    "ring": 1,
+    "quadrant": 2,
+    "ring": 0,
     "label": "Vitest",
     "active": true,
     "moved": 0
@@ -995,29 +1219,120 @@
   },
   {
     "quadrant": 3,
+    "ring": 3,
+    "label": "Vue 2",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
     "ring": 0,
-    "label": "Vue",
+    "label": "Vue 3",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "vue-class-component",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Vue Composition API",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Vue Flow",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "vue-property-decorator",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Vue Router",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Vue-validate",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "VueCli",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Vuetify",
     "active": true,
     "moved": 0
   },
   {
     "quadrant": 2,
     "ring": 0,
-    "label": "VueCli",
+    "label": "VueUse",
     "active": true,
     "moved": 0
   },
   {
     "quadrant": 3,
-    "ring": 0,
+    "ring": 3,
     "label": "Vuex",
     "active": true,
     "moved": 0
   },
   {
-    "quadrant": 3,
+    "quadrant": 0,
     "ring": 0,
+    "label": "Web Push",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "web-vitals",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
     "label": "Webpack",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Wrangler",
+    "active": true,
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Zod",
     "active": true,
     "moved": 0
   }

@@ -1,5 +1,5 @@
 {
-  "technology": "Jest",
+  "technology": "vue-property-decorator",
   "status": "HOLD",
   "category": "Techniques && Tools"
 }

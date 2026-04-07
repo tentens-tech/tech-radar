@@ -1,5 +1,5 @@
 {
-  "technology": "Vitest",
+  "technology": "ts-node",
   "status": "ADOPT",
   "category": "Techniques && Tools"
 }
