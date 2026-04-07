@@ -63,7 +63,7 @@ body {
   overflow-x: hidden;
 }
 
-svg#radar { display: block; margin: 0 auto; width: 100% !important; }
+svg#radar { display: block; margin: 0 auto; width: 100%; }
 
 /* Generic status label styling */
 .status-label {
@@ -397,5 +397,5 @@ tbody tr:last-child td {
 /* Strong hover effect for all rows, including striped tables */
 tbody tr:hover > th,
 tbody tr:hover > td {
-  background-color: rgba(0, 255, 204, 0.2) !important;
+  background-color: rgba(0, 255, 204, 0.2);
 }
