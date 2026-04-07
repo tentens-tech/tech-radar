@@ -8,9 +8,18 @@ h3 {
 li {
   margin: 25px 50px 0 0;
 }
+
+ul {
+  padding: 0 2rem;
+}
 table {
-  width: 1400px;
-  margin: 0 50px 0 50px;
+  width: 100%;
+  margin: 0;
+}
+
+table.footer {
+  padding: 0 2rem;
+  box-sizing: border-box;
 }
 td {
   width: 50%;
@@ -54,7 +63,7 @@ body {
   overflow-x: hidden;
 }
 
-svg#radar { display: block; margin: 0 auto; }
+svg#radar { display: block; margin: 0 auto; width: 100% !important; }
 
 /* Generic status label styling */
 .status-label {
