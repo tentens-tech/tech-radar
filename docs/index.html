@@ -22,8 +22,8 @@
     }).then(function (data) {
         radar_visualization({
             svg_id: "radar",
-            width: 1450,
-            height: 1450,
+            width: 1700,
+            height: 1100,
             colors: {
                 background: "#212121",
                 grid: '#024d3d',
@@ -34,7 +34,7 @@
             quadrants: [
                 {name: "Infrastructure"},
                 {name: "Data management"},
-                {name: "Techniques && Tools"},
+                {name: "Techniques & Tools"},
                 {name: "Languages & Frameworks"},
             ],
             rings: [
@@ -51,7 +51,7 @@
         console.log('Error loading config.json', err);
     });
 </script>
-<table class="footer">
+<table class="footer" style="width: 100%; padding: 0 2rem; box-sizing: border-box;">
     <tr>
         <td>
             <ul>

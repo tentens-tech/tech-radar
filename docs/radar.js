@@ -48,23 +48,23 @@ function radar_visualization(config) {
   ];
 
   const rings = [
-    { radius: 160 },
-    { radius: 250 },
-    { radius: 340 },
-    { radius: 430 }
+    { radius: 190 },
+    { radius: 300 },
+    { radius: 410 },
+    { radius: 520 }
   ];
 
   const title_offset =
-    { x: -675, y: -460 };
+    { x: -810, y: -560 };
 
   const footer_offset =
-    { x: -675, y: 460 };
+    { x: -810, y: 560 };
 
   const legend_offset = [
-    { x: 480, y: 120 },
-    { x: -705, y: 120 },
-    { x: -705, y: -340 },
-    { x: 480, y: -340 }
+    { x: 560, y: 0 },
+    { x: -800, y: 320 },
+    { x: -800, y: -420 },
+    { x: 560, y: -420 }
   ];
 
   function polar(cartesian) {
@@ -200,20 +200,20 @@ function radar_visualization(config) {
   if ("zoomed_quadrant" in config) {
     svg.attr("viewBox", viewbox(config.zoomed_quadrant));
   } else {
-    radar.attr("transform", translate(config.width / 2, config.height / 2 - 200));
+    radar.attr("transform", translate(config.width / 2, config.height / 2));
   }
 
   var grid = radar.append("g");
 
   // draw grid lines
   grid.append("line")
-    .attr("x1", 0).attr("y1", -430)
-    .attr("x2", 0).attr("y2", 430)
+    .attr("x1", 0).attr("y1", -520)
+    .attr("x2", 0).attr("y2", 520)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
   grid.append("line")
-    .attr("x1", -430).attr("y1", 0)
-    .attr("x2", 430).attr("y2", 0)
+    .attr("x1", -520).attr("y1", 0)
+    .attr("x2", 520).attr("y2", 0)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
 
